@@ -19,9 +19,9 @@ fn main() {
             .expect("Debe introducir un numero valido");
 
         if input_text > random_number {
-            println!("El numero es mayor");
+            println!("El numero es mayor, introduce otro:");
         } else if input_text < random_number {
-            println!("El numero es menor");
+            println!("El numero es menor, introduce otro:");
         } else {
             println!("El numero es CORRECTO!");
             break;
